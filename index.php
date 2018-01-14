@@ -27,11 +27,11 @@ $students['a456'] = $second;
 $me = new Student();
 $me->surname = "Perry";
 $me->first_name = "Robbie";
-$second->add_email('home','home@email.com');
-$second->add_email('work1','email@my.bcit.ca');
-$second->add_grade(95);
-$second->add_grade(80);
-$second->add_grade(75);
+$me->add_email('home','home@email.com');
+$me->add_email('work1','email@my.bcit.ca');
+$me->add_grade(95);
+$me->add_grade(80);
+$me->add_grade(75);
 $students['a009'] = $me;
 
 ksort($students); // one of the many sort functions
