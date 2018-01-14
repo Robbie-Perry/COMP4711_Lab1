@@ -32,6 +32,7 @@ $second->add_email('work1','email@my.bcit.ca');
 $second->add_grade(95);
 $second->add_grade(80);
 $second->add_grade(75);
+$students['a009'] = $me;
 
 ksort($students); // one of the many sort functions
 
